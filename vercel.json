@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    { 
+      "source": "/.well-known/host-meta",
+      "destination": "https://mastodon.social/.well-known/host-meta?resource=acct:dinip@mastodon.social", 
+      "permanent": true
+    },
+    { 
+      "source": "/.well-known/webfinger",
+      "destination": "https://mastodon.social/.well-known/host-meta?resource=acct:dinip@mastodon.social", 
+      "permanent": true
+    },
+    { 
+      "source": "/.well-known/nodeinfo",
+      "destination": "https://mastodon.social/.well-known/host-meta?resource=acct:dinip@mastodon.social", 
+      "permanent": true
+    }
+  ]
+}
